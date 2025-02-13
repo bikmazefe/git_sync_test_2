@@ -1,0 +1,203 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld Item(s)": {
+      "comment": "This is a device variation comment",
+      "localizations": {
+        "en": {
+          "variations": {
+            "device": {
+              "applewatch": {
+                "variations": {
+                  "plural": {
+                    "one": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) applewatch"
+                      }
+                    },
+                    "other": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) applewatch"
+                      }
+                    }
+                  }
+                }
+              },
+              "ipad": {
+                "variations": {
+                  "plural": {
+                    "one": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) ipad"
+                      }
+                    },
+                    "other": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) ipad"
+                      }
+                    }
+                  }
+                }
+              },
+              "iphone": {
+                "variations": {
+                  "plural": {
+                    "one": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) iphone"
+                      }
+                    },
+                    "other": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) iphone"
+                      }
+                    }
+                  }
+                }
+              },
+              "mac": {
+                "variations": {
+                  "plural": {
+                    "one": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) mac"
+                      }
+                    },
+                    "other": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) mac"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Item(s)"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Item(s)"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Alert Message": {
+      "comment": "Sync not available description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Photos should be turned on to use sync function."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "l'option iCloud Photos doit être activée pour utiliser la fonction de synchronisation."
+          }
+        }
+      }
+    },
+    "motto": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "device": {
+              "iphone": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Your iPhone is super fast"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "device": {
+              "iphone": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Tu iPhone es súper rápido"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Selected Albums": {
+      "comment": "View Title",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%ld Album Selected"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%ld Albums Selected"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%ld album sélectionné"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%ld albums sélectionnés"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Control Center": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Centro de control"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
