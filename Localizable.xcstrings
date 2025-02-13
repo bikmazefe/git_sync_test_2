@@ -1,1 +1,203 @@
-{"en":"{\n  \"sourceLanguage\": \"en\",\n  \"strings\": {\n    \"%lld Item(s)\": {\n      \"comment\": \"This is a device variation comment\",\n      \"localizations\": {\n        \"en\": {\n          \"variations\": {\n            \"device\": {\n              \"applewatch\": {\n                \"variations\": {\n                  \"plural\": {\n                    \"one\": {\n                      \"stringUnit\": {\n                        \"state\": \"translated\",\n                        \"value\": \"%lld Item(s) applewatch\"\n                      }\n                    },\n                    \"other\": {\n                      \"stringUnit\": {\n                        \"state\": \"translated\",\n                        \"value\": \"%lld Item(s) applewatch\"\n                      }\n                    }\n                  }\n                }\n              },\n              \"ipad\": {\n                \"variations\": {\n                  \"plural\": {\n                    \"one\": {\n                      \"stringUnit\": {\n                        \"state\": \"translated\",\n                        \"value\": \"%lld Item(s) ipad\"\n                      }\n                    },\n                    \"other\": {\n                      \"stringUnit\": {\n                        \"state\": \"translated\",\n                        \"value\": \"%lld Item(s) ipad\"\n                      }\n                    }\n                  }\n                }\n              },\n              \"iphone\": {\n                \"variations\": {\n                  \"plural\": {\n                    \"one\": {\n                      \"stringUnit\": {\n                        \"state\": \"translated\",\n                        \"value\": \"%lld Item(s) iphone\"\n                      }\n                    },\n                    \"other\": {\n                      \"stringUnit\": {\n                        \"state\": \"translated\",\n                        \"value\": \"%lld Item(s) iphone\"\n                      }\n                    }\n                  }\n                }\n              },\n              \"mac\": {\n                \"variations\": {\n                  \"plural\": {\n                    \"one\": {\n                      \"stringUnit\": {\n                        \"state\": \"translated\",\n                        \"value\": \"%lld Item(s) mac\"\n                      }\n                    },\n                    \"other\": {\n                      \"stringUnit\": {\n                        \"state\": \"translated\",\n                        \"value\": \"%lld Item(s) mac\"\n                      }\n                    }\n                  }\n                }\n              }\n            }\n          }\n        },\n        \"fr\": {\n          \"variations\": {\n            \"plural\": {\n              \"many\": {\n                \"stringUnit\": {\n                  \"state\": \"translated\",\n                  \"value\": \"%lld Item(s)\"\n                }\n              },\n              \"one\": {\n                \"stringUnit\": {\n                  \"state\": \"translated\",\n                  \"value\": \"%lld Item(s)\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"Alert Message\": {\n      \"comment\": \"Sync not available description\",\n      \"localizations\": {\n        \"en\": {\n          \"stringUnit\": {\n            \"state\": \"translated\",\n            \"value\": \"iCloud Photos should be turned on to use sync function.\"\n          }\n        },\n        \"fr\": {\n          \"stringUnit\": {\n            \"state\": \"translated\",\n            \"value\": \"l'option iCloud Photos doit être activée pour utiliser la fonction de synchronisation.\"\n          }\n        }\n      }\n    },\n    \"motto\": {\n      \"localizations\": {\n        \"en\": {\n          \"variations\": {\n            \"device\": {\n              \"iphone\": {\n                \"stringUnit\": {\n                  \"state\": \"translated\",\n                  \"value\": \"Your iPhone is super fast\"\n                }\n              }\n            }\n          }\n        },\n        \"es\": {\n          \"variations\": {\n            \"device\": {\n              \"iphone\": {\n                \"stringUnit\": {\n                  \"state\": \"translated\",\n                  \"value\": \"Tu iPhone es súper rápido\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"Selected Albums\": {\n      \"comment\": \"View Title\",\n      \"localizations\": {\n        \"en\": {\n          \"variations\": {\n            \"plural\": {\n              \"one\": {\n                \"stringUnit\": {\n                  \"state\": \"translated\",\n                  \"value\": \"%ld Album Selected\"\n                }\n              },\n              \"other\": {\n                \"stringUnit\": {\n                  \"state\": \"translated\",\n                  \"value\": \"%ld Albums Selected\"\n                }\n              }\n            }\n          }\n        },\n        \"fr\": {\n          \"variations\": {\n            \"plural\": {\n              \"one\": {\n                \"stringUnit\": {\n                  \"state\": \"translated\",\n                  \"value\": \"%ld album sélectionné\"\n                }\n              },\n              \"other\": {\n                \"stringUnit\": {\n                  \"state\": \"translated\",\n                  \"value\": \"%ld albums sélectionnés\"\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"Control Center\": {\n      \"localizations\": {\n        \"es\": {\n          \"stringUnit\": {\n            \"state\": \"translated\",\n            \"value\": \"Centro de control\"\n          }\n        }\n      }\n    }\n  },\n  \"version\": \"1.0\"\n}"}
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%lld Item(s)": {
+      "comment": "This is a device variation comment",
+      "localizations": {
+        "en": {
+          "variations": {
+            "device": {
+              "applewatch": {
+                "variations": {
+                  "plural": {
+                    "one": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) applewatch"
+                      }
+                    },
+                    "other": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) applewatch"
+                      }
+                    }
+                  }
+                }
+              },
+              "ipad": {
+                "variations": {
+                  "plural": {
+                    "one": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) ipad"
+                      }
+                    },
+                    "other": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) ipad"
+                      }
+                    }
+                  }
+                }
+              },
+              "iphone": {
+                "variations": {
+                  "plural": {
+                    "one": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) iphone"
+                      }
+                    },
+                    "other": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) iphone"
+                      }
+                    }
+                  }
+                }
+              },
+              "mac": {
+                "variations": {
+                  "plural": {
+                    "one": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) mac"
+                      }
+                    },
+                    "other": {
+                      "stringUnit": {
+                        "state": "translated",
+                        "value": "%lld Item(s) mac"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "many": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Item(s)"
+                }
+              },
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld Item(s)"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Alert Message": {
+      "comment": "Sync not available description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Photos should be turned on to use sync function."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "l'option iCloud Photos doit être activée pour utiliser la fonction de synchronisation."
+          }
+        }
+      }
+    },
+    "motto": {
+      "localizations": {
+        "en": {
+          "variations": {
+            "device": {
+              "iphone": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Your iPhone is super fast"
+                }
+              }
+            }
+          }
+        },
+        "es": {
+          "variations": {
+            "device": {
+              "iphone": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "Tu iPhone es súper rápido"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Selected Albums": {
+      "comment": "View Title",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%ld Album Selected"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%ld Albums Selected"
+                }
+              }
+            }
+          }
+        },
+        "fr": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%ld album sélectionné"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%ld albums sélectionnés"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Control Center": {
+      "localizations": {
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Centro de control"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
