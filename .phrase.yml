@@ -1,0 +1,48 @@
+phrase:
+  host: http://localhost:3000/api/v2
+  access_token: e8998dff04fc5a2f7a9cc489e4cf6035cc3ee0caf93bfede7b3b4b27c70a586c
+  file_format: strings_catalog
+  project_id: bba8b3a44220927a4bb01fb3d432da77
+
+  push:
+    sources:
+      - file: "./Localizable.xcstrings"
+        params:
+          locale_id: en
+          file_format: strings_catalog
+          update_translations: true
+          update_descriptions: true
+  pull:
+    targets:
+      - file: "./Localizable.xcstrings"
+        params:
+          file_format: strings_catalog
+          locale_id: en
+          locale_ids:
+            - en
+            - fr
+
+  # push:
+  #   sources:
+  #     - file: ./config/locales/translation_center/en.yml
+  #       project_id: 1d8ae641902624df63ce6fbd64ff9549
+  #       params:
+  #         locale_id: en
+  # pull:
+  #   targets:
+  #     # translation center
+  #     - file: ./config/locales/translation_center/<locale_name>.yml
+  #       project_id: 1d8ae641902624df63ce6fbd64ff9549
+  #       params:
+  #         use_last_reviewed_version: true
+  #         include_empty_translations: true
+  #         exclude_empty_zero_forms: true
+  #     # i18next
+  #     - file: ./app/javascript/i18n/locales/i18n.<locale_name>.json
+  #       project_id: 1d8ae641902624df63ce6fbd64ff9549
+  #       file_format: i18next
+  #       params:
+  #         tag: i18next
+  #         use_last_reviewed_version: true
+  #         include_empty_translations: true
+  #         exclude_empty_zero_forms: true
